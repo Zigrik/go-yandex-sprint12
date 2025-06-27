@@ -1,5 +1,7 @@
 FROM golang:1.24
 
+RUN apk add --no-cache git
+
 WORKDIR /app
 
 COPY go.mod go.sum ./
