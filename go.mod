@@ -1,6 +1,6 @@
-module sprint12
+module github.com/zigrik/yandex-sprint12
 
-go 1.24.0
+go 1.23.1
 
 require (
 	github.com/stretchr/testify v1.10.0
